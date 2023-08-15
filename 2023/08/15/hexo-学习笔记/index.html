@@ -24,7 +24,7 @@
 <meta property="og:description" content="hexo 学习笔记hexo命令 hexo new “标题” #创建新的文章 hexo clean #清理 hexo g	#生成静态页面 hexo s	#启动本地博客服务 http:&#x2F;&#x2F;localhost:4000&#x2F;	#本地访问地址 ctrl+c  #结束本地博客服务 hexo d	#部署到远程Github仓库  python实现自动推送到Git其实就是把几个命令行一起写在python中 impor">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-08-15T05:49:17.000Z">
-<meta property="article:modified_time" content="2023-08-15T11:42:16.434Z">
+<meta property="article:modified_time" content="2023-08-15T12:38:47.226Z">
 <meta property="article:author" content="xi">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="blog">
@@ -211,7 +211,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          595 words
+          857 words
         
       </span>
     
@@ -222,7 +222,7 @@
         
         
         
-          4 mins
+          5 mins
         
       </span>
     
@@ -272,7 +272,7 @@
               <p class="note note-info">
                 
                   
-                    Last updated on 17 minutes ago
+                    Last updated on a few seconds ago
                   
                 
               </p>
@@ -292,20 +292,32 @@
 <h2 id="python实现自动推送到Git"><a href="#python实现自动推送到Git" class="headerlink" title="python实现自动推送到Git"></a>python实现自动推送到Git</h2><p>其实就是把几个命令行一起写在python中</p>
 <pre><code class="hljs">import os
 # 切换到博客目录（根据实际路径进行修改）
-blog_path = &quot;实际路径&quot;
+blog_path = &quot;D:/AAAblog&quot;
 os.chdir(blog_path)
 
 # 清理
 print(&quot;--------------------正在清理中--------------------&quot;)
-os.system(&quot;hexo clean&quot;)
+return_code = os.system(&quot;hexo clean&quot;)
+if return_code == 0:
+print(&quot;清理成功&quot;)
+else:
+print(&quot;清理失败&quot;)
 
 # 生成静态文件
 print(&quot;--------------------生成静态文件中--------------------&quot;)
-os.system(&quot;hexo generate&quot;)
+return_code = os.system(&quot;hexo generate&quot;)
+if return_code == 0:
+print(&quot;生成静态文件成功&quot;)
+else:
+print(&quot;生成静态文件失败&quot;)
 
 # 部署到线上
 print(&quot;--------------------正在部署到Git中--------------------&quot;)
-os.system(&quot;hexo deploy&quot;)
+return_code = os.system(&quot;hexo deploy&quot;)
+if return_code == 0:
+print(&quot;部署到Git成功&quot;)
+else:
+print(&quot;部署到Git失败&quot;)
 
 # 等待用户按下回车键
 input(&quot;按回车键退出...&quot;)
