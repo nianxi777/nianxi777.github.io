@@ -16,15 +16,15 @@
   <meta name="author" content="xi">
   <meta name="keywords" content="">
   
-    <meta name="description" content="hexo 学习笔记 hexo new “标题” #创建新的文章 hexo clean #清理 hexo g	#生成静态页面 hexo s	#启动本地博客服务 http:&#x2F;&#x2F;localhost:4000&#x2F;	#本地访问地址 ctrl+c  #结束本地博客服务 hexo d	#部署到远程Github仓库">
+    <meta name="description" content="hexo 学习笔记hexo命令 hexo new “标题” #创建新的文章 hexo clean #清理 hexo g	#生成静态页面 hexo s	#启动本地博客服务 http:&#x2F;&#x2F;localhost:4000&#x2F;	#本地访问地址 ctrl+c  #结束本地博客服务 hexo d	#部署到远程Github仓库  python实现自动推送到Git其实就是把几个命令行一起写在python中 impor">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo 学习笔记">
 <meta property="og:url" content="http://example.com/2023/08/15/hexo-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="溪_">
-<meta property="og:description" content="hexo 学习笔记 hexo new “标题” #创建新的文章 hexo clean #清理 hexo g	#生成静态页面 hexo s	#启动本地博客服务 http:&#x2F;&#x2F;localhost:4000&#x2F;	#本地访问地址 ctrl+c  #结束本地博客服务 hexo d	#部署到远程Github仓库">
+<meta property="og:description" content="hexo 学习笔记hexo命令 hexo new “标题” #创建新的文章 hexo clean #清理 hexo g	#生成静态页面 hexo s	#启动本地博客服务 http:&#x2F;&#x2F;localhost:4000&#x2F;	#本地访问地址 ctrl+c  #结束本地博客服务 hexo d	#部署到远程Github仓库  python实现自动推送到Git其实就是把几个命令行一起写在python中 impor">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-08-15T05:49:17.000Z">
-<meta property="article:modified_time" content="2023-08-15T07:34:48.223Z">
+<meta property="article:modified_time" content="2023-08-15T11:42:16.434Z">
 <meta property="article:author" content="xi">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="blog">
@@ -211,7 +211,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          127 words
+          595 words
         
       </span>
     
@@ -222,7 +222,7 @@
         
         
         
-          1 mins
+          4 mins
         
       </span>
     
@@ -272,7 +272,7 @@
               <p class="note note-info">
                 
                   
-                    Last updated on 3 hours ago
+                    Last updated on a few seconds ago
                   
                 
               </p>
@@ -280,7 +280,7 @@
             
               <div class="markdown-body">
                 
-                <h1 id="hexo-学习笔记"><a href="#hexo-学习笔记" class="headerlink" title="hexo 学习笔记"></a>hexo 学习笔记</h1><ul>
+                <h1 id="hexo-学习笔记"><a href="#hexo-学习笔记" class="headerlink" title="hexo 学习笔记"></a>hexo 学习笔记</h1><h2 id="hexo命令"><a href="#hexo命令" class="headerlink" title="hexo命令"></a>hexo命令</h2><ul>
 <li>hexo new “标题” #创建新的文章</li>
 <li>hexo clean #清理</li>
 <li>hexo g	#生成静态页面</li>
@@ -289,6 +289,27 @@
 <li>ctrl+c  #结束本地博客服务</li>
 <li>hexo d	#部署到远程Github仓库</li>
 </ul>
+<h2 id="python实现自动推送到Git"><a href="#python实现自动推送到Git" class="headerlink" title="python实现自动推送到Git"></a>python实现自动推送到Git</h2><p>其实就是把几个命令行一起写在python中</p>
+<pre><code class="hljs">import os
+# 切换到博客目录（根据实际路径进行修改）
+blog_path = &quot;实际路径&quot;
+os.chdir(blog_path)
+
+# 清理
+print(&quot;--------------------正在清理中--------------------&quot;)
+os.system(&quot;hexo clean&quot;)
+
+# 生成静态文件
+print(&quot;--------------------生成静态文件中--------------------&quot;)
+os.system(&quot;hexo generate&quot;)
+
+# 部署到线上
+print(&quot;--------------------正在部署到Git中--------------------&quot;)
+os.system(&quot;hexo deploy&quot;)
+
+# 等待用户按下回车键
+input(&quot;按回车键退出...&quot;)
+</code></pre>
 
                 
               </div>
