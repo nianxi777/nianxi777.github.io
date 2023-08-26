@@ -8,7 +8,7 @@
     <link href="/2023/08/26/Java-%E8%80%83%E8%AF%95%E5%B8%B8%E8%80%83/"/>
     <url>/2023/08/26/Java-%E8%80%83%E8%AF%95%E5%B8%B8%E8%80%83/</url>
     
-    <content type="html"><![CDATA[<h1 id="Java-考试常考"><a href="#Java-考试常考" class="headerlink" title="Java 考试常考"></a>Java 考试常考</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="Java-考试常考"><a href="#Java-考试常考" class="headerlink" title="Java 考试常考"></a>Java 考试常考</h1><ol><li>标识符:<ul><li>不能是关键字,不能是true,false,null</li><li>字母,下划线,美元符号,数字组成</li><li>第一个字符不能够是数字</li></ul></li><li><code>javac Hello.java</code>    <code>java Hello</code></li><li>javac.exe是JDK提供的编译器,java.exe是Java解释器</li><li>最多只能有一个类是public类，且源文件的名字必须与public类的名字完全相同(可以没有public类)</li><li>float常量后面要加f或者F(不可省略),char是单引号,byte范围-128~127,double后面的d或D可以省略</li><li>常量的默认数据类型是double</li><li>重载:在同一个类中方法名相同,但方法的参数必须不同(个数不同,类型不同)</li><li>重写:在子类中(不同类中),方法名,参数个数,返回类型,参数类型完全相同</li><li>一个类只能有一个父类(超类),一个类可以有多个子类</li><li>访问权限:public权限,protect权限,友好权限(默认权限),private权限</li><li>接口可以看作是仅容纳抽象方法、常量,而又不能直接生成对象的特殊抽象类</li><li>在接口中定义的方法都只能是没有方法体的抽象方法</li><li>main方法不是所有Java程序执行的入口</li><li>在类中定义构造方法时,构造方法的方法名必须与所属类名相同,并且不应该有返回类型</li><li>父类的构造方法不可被子类继承</li><li>在子类中调用父类的构造方法时，需要用<code>super()</code>关键字</li><li><code>public static void main(String[] args)</code></li><li>java.lang.Object:所有其他的类都是它直接或间接的子类</li><li>面向对象的计算机语言:封装、继承、多态</li><li>声明数组时，可以先不分配内存</li><li></li></ol>]]></content>
     
     
     <categories>
