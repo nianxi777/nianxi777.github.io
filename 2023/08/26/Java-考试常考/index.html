@@ -16,15 +16,15 @@
   <meta name="author" content="xi">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Java 考试常考 标识符: 不能是关键字,不能是true,false,null 字母,下划线,美元符号,数字组成 第一个字符不能够是数字   javac Hello.java    java Hello javac.exe是JDK提供的编译器,java.exe是Java解释器 最多只能有一个类是public类，且源文件的名字必须与public类的名字完全相同(可以没有public类) float">
+    <meta name="description" content="Java 考试常考习题 标识符: 不能是关键字,不能是true,false,null 字母,下划线,美元符号,数字组成 第一个字符不能够是数字   javac Hello.java    java Hello javac.exe是JDK提供的编译器,java.exe是Java解释器 最多只能有一个类是public类，且源文件的名字必须与public类的名字完全相同(可以没有public类) flo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java 考试常考">
 <meta property="og:url" content="http://example.com/2023/08/26/Java-%E8%80%83%E8%AF%95%E5%B8%B8%E8%80%83/index.html">
 <meta property="og:site_name" content="溪_">
-<meta property="og:description" content="Java 考试常考 标识符: 不能是关键字,不能是true,false,null 字母,下划线,美元符号,数字组成 第一个字符不能够是数字   javac Hello.java    java Hello javac.exe是JDK提供的编译器,java.exe是Java解释器 最多只能有一个类是public类，且源文件的名字必须与public类的名字完全相同(可以没有public类) float">
+<meta property="og:description" content="Java 考试常考习题 标识符: 不能是关键字,不能是true,false,null 字母,下划线,美元符号,数字组成 第一个字符不能够是数字   javac Hello.java    java Hello javac.exe是JDK提供的编译器,java.exe是Java解释器 最多只能有一个类是public类，且源文件的名字必须与public类的名字完全相同(可以没有public类) flo">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-08-26T06:13:06.000Z">
-<meta property="article:modified_time" content="2023-08-29T06:52:26.166Z">
+<meta property="article:modified_time" content="2023-08-30T13:06:21.167Z">
 <meta property="article:author" content="xi">
 <meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary_large_image">
@@ -210,7 +210,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2k words
+          2.2k words
         
       </span>
     
@@ -221,7 +221,7 @@
         
         
         
-          12 mins
+          13 mins
         
       </span>
     
@@ -271,7 +271,7 @@
               <p class="note note-info">
                 
                   
-                    Last updated on August 29, 2023 pm
+                    Last updated on August 30, 2023 pm
                   
                 
               </p>
@@ -279,7 +279,7 @@
             
               <div class="markdown-body">
                 
-                <h1 id="Java-考试常考"><a href="#Java-考试常考" class="headerlink" title="Java 考试常考"></a>Java 考试常考</h1><ol>
+                <h1 id="Java-考试常考"><a href="#Java-考试常考" class="headerlink" title="Java 考试常考"></a>Java 考试常考</h1><h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><ol>
 <li>标识符:<ul>
 <li>不能是关键字,不能是true,false,null</li>
 <li>字母,下划线,美元符号,数字组成</li>
@@ -309,9 +309,11 @@
 <li>String对象创建后是不可以再修改的、删除或者替换的</li>
 <li>用了new一定会开辟新的堆空间</li>
 <li>substring会得到一个全新的字符串，一个新的String对象</li>
+<li>float型变量声明后面必须加f，特例：1不用加,<code>float n=1</code></li>
+<li></li>
 </ol>
 <hr>
-<ol>
+<h2 id="流"><a href="#流" class="headerlink" title="流"></a>流</h2><ol>
 <li>文件字节输入流：FileInputStream类  文件字节输出流：FileOutputStream类</li>
 <li>文件字符输入流：FileReader类  文件字符输出流：FileWriter类</li>
 <li>缓冲输入流：BufferedReader流  缓冲输出流：BufferedWriter流</li>
@@ -320,14 +322,14 @@
 <li>缓存输入、输出流不能够直接指向一个文件</li>
 </ol>
 <hr>
-<ol>
+<h2 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h2><ol>
 <li>FlowLayout布局：按顺序从左往右，排满之后换行，每一行中的组件都剧中排列</li>
 <li>(JFrame的默认布局)BorderLayout布局：CENTER(中)、NORTH(北)、SOUTH(南)、WEST(西)、EAST(东)</li>
 <li>GridLayout布局：m×n个网格</li>
 <li>JFrame创建的窗口默认是不可见的</li>
 </ol>
 <hr>
-<ol>
+<h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><ol>
 <li>类：类是用于描述具有相似属性和行为的对象的集合，它定义了对象的属性和方法。类是抽象的，只是描述了对象的特征和行为，并不具体存在</li>
 <li>对象：对象是类的实例，是类的具体化。它具有类定义的属性和方法，并可以通过对象来访问和操作这些属性和方法</li>
 <li>方法：方法是类中定义的行为。它是一段可执行的代码，用于完成特点的任务。方法可以有参数和返回值，可以被其他方法或对象调用</li>
@@ -344,6 +346,20 @@
 <li>数组：数组是一种用于存储多个相同类型数据的容器。它可以通过索引访问和操作数组中的元素。</li>
 <li>控制流：控制流用于控制程序的执行顺序和流程。Java中有条件语句（if-else、switch）、循环语句（for、while、do-while）和跳转语句（break、continue、return）等。</li>
 </ol>
+<hr>
+<h2 id="JDK-JRE-JVM"><a href="#JDK-JRE-JVM" class="headerlink" title="JDK JRE JVM"></a>JDK JRE JVM</h2><ol>
+<li>JDK包含JRE，JDK和JRE中都包含JVM。JDK除了包含JRE还包含了一些常用开发工具和基础类库</li>
+<li>JDK用于开发，JRE用于运行Java程序</li>
+<li>JVM是Java编程语言的核心并且具有平台独立性</li>
+</ol>
+<hr>
+<ol>
+<li>局部变量：在方法或语句块内部的变量</li>
+<li>成员变量：方法外部、类的内部定义的变量</li>
+<li>常量：在前面加一个final修饰</li>
+</ol>
+<hr>
+<p>1. </p>
 
                 
               </div>
