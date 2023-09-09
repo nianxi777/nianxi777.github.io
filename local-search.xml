@@ -4,6 +4,69 @@
   
   
   <entry>
+    <title>计算机网络-学习笔记</title>
+    <link href="/2023/09/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <url>/2023/09/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="第1章课前作业"><a href="#第1章课前作业" class="headerlink" title="第1章课前作业"></a>第1章课前作业</h2><p><strong>1. What is the difference between “Network” and “Networking” ?</strong></p><p><strong>2. What are a Computer Network and the Internet, and how are they related?</strong></p><p><strong>3. What is a Protocol ?</strong><br>协议(protocol) 定义了在两个或多个通信实体之间交换的报文的格式和顺序，以及报文发送和&#x2F;或接收一条报文或其他事件所采取的动作。<br><strong>4. What are ISPs? What are the Internet’s end systems?</strong><br>ISP是指互联网服务提供商（Internet Service Provider），它是一家提供互联网接入服务的公司或组织。ISP通过提供接入点和网络连接，使个人用户、企业和其他组织能够连接到互联网。ISP通常提供各种类型的互联网接入服务，例如宽带、光纤、DSL、移动网络等。<br>互联网的终端系统（End Systems）是指连接到互联网的最终用户设备。这些设备可以是个人电脑、笔记本电脑、智能手机、平板电脑、服务器等。终端系统通过网络接口（如网卡、无线适配器）连接到ISP提供的互联网接入点，从而能够与其他终端系统进行通信和访问互联网上的各种服务和资源。<br><strong>5. What is an Access Network?</strong>  </p><p><strong>6. What are some common physical media?</strong>  </p><p><strong>7. What are Circuit Swiching and Packet Switching,and how do they differ?</strong>  </p><p><strong>8. What do the acronyms FDM and TDM stand for ?</strong>  </p><p><strong>9. What are the types of delay?</strong> </p><p><strong>10. What are the common causes of Packet Loss?</strong> </p><p><strong>11. What does the term Throughput mean?</strong>  </p><p><strong>12. What are the five layers in the Internet protocol stack?</strong> </p><p><strong>13. What are an application-layer message, a transport-layer segment, a network-layer datagram, and a link-layer frame?</strong> </p><p><strong>14. What are the two potential drawbacks of layering?</strong>  </p><p><strong>15. What are some types of computer network attacks?</strong>  </p><p><strong>16. What are the relationships between 5G and the Internet?</strong>   </p><p><strong>17. 请查找了解中国主要互联网服务提供者(ISP)之间的互联结构(提示：CNNIC)。</strong>  </p><p><strong>18. 请列举中国互联网发展过程中你认为最重要的3-5个事件，以及你认为有哪3-5个人对中国互联网早期的发展做出了显著贡献？(请自己查找资料，独立判断，不要抄袭别人的说法)</strong> </p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>计算机网络</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>运筹学（二）</title>
+    <link href="/2023/09/07/%E8%BF%90%E7%AD%B9%E5%AD%A6%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <url>/2023/09/07/%E8%BF%90%E7%AD%B9%E5%AD%A6%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>运筹学（一）</title>
+    <link href="/2023/09/07/%E8%BF%90%E7%AD%B9%E5%AD%A6%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <url>/2023/09/07/%E8%BF%90%E7%AD%B9%E5%AD%A6%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<h2 id="线性规划问题的一般形式"><a href="#线性规划问题的一般形式" class="headerlink" title="线性规划问题的一般形式"></a>线性规划问题的一般形式</h2><ul><li>决策变量、目标函数、约束条件</li></ul><h2 id="线性规划问题的标准形式"><a href="#线性规划问题的标准形式" class="headerlink" title="线性规划问题的标准形式"></a>线性规划问题的标准形式</h2><ul><li>特点：目标函数求最大、等式约束、变量非负</li><li>正常形式、求和形式、矩阵形式</li><li>如何将一般问题化为标准型：</li></ul><h2 id="图解法"><a href="#图解法" class="headerlink" title="图解法"></a>图解法</h2><ul><li>只适用于有2个决策变量或能够转化为2个决策变量的线性规划问题</li><li>定义1：满足约束条件的变量的值，称为（LP）可行解。所有可行解的集合称为可行解集（可行域）</li><li>定义2：使目标函数取得最优值的可行解，称为最优解。</li><li></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>运筹学</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Java 考试常考</title>
     <link href="/2023/08/26/Java-%E8%80%83%E8%AF%95%E5%B8%B8%E8%80%83/"/>
     <url>/2023/08/26/Java-%E8%80%83%E8%AF%95%E5%B8%B8%E8%80%83/</url>
@@ -29,9 +92,9 @@
   
   
   <entry>
-    <title>JAVA 学习笔记</title>
-    <link href="/2023/08/16/JAVA%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <url>/2023/08/16/JAVA%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <title>Java—学习笔记</title>
+    <link href="/2023/08/16/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <url>/2023/08/16/Java-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     
     <content type="html"><![CDATA[<h1 id="Java-学习笔记"><a href="#Java-学习笔记" class="headerlink" title="Java 学习笔记"></a>Java 学习笔记</h1><h2 id="一-Java概述"><a href="#一-Java概述" class="headerlink" title="一.Java概述"></a>一.Java概述</h2><h3 id="1-程序设计语言发展及分类"><a href="#1-程序设计语言发展及分类" class="headerlink" title="1.程序设计语言发展及分类"></a>1.程序设计语言发展及分类</h3><h4 id="按发展历程分类"><a href="#按发展历程分类" class="headerlink" title="按发展历程分类"></a>按发展历程分类</h4><ul><li>机器语言:计算机直接识别的语言,0&#x2F;1代码   </li><li>汇编语言:低级语言,使用助记符代替0&#x2F;1    </li><li>高级语言:采用命令或者语句的语言,例如:c,c++,java</li></ul><h4 id="按思维模式分类"><a href="#按思维模式分类" class="headerlink" title="按思维模式分类"></a>按思维模式分类</h4><ul><li>面向过程的程序设计语言,例如c语言</li><li>面向对象的程序设计语言,例如Java,c++</li></ul><h4 id="按执行方式分类"><a href="#按执行方式分类" class="headerlink" title="按执行方式分类"></a>按执行方式分类</h4><ul><li>编译执行语言,如C语言</li><li>解释执行语言,如Java语言</li></ul><h3 id="2-Java语言的特色"><a href="#2-Java语言的特色" class="headerlink" title="2.Java语言的特色"></a>2.Java语言的特色</h3><ul><li>年轻的语言:1995年诞生</li><li>简单性:语法上类似C++,取消了C++的一些复杂而低效的特性</li><li>面向对象的语言:继承,封装,多态</li><li>分布式</li><li>健壮性:编译和运行时检查程序错误,Java自己操作内存,减少了内存出错的可能性</li><li>安全性:c++的指针和释放内存等功能被删除,避免了非法内存操作</li><li>可移植性:可在配备了Java解释器(Java虚拟机)和运行环境的任何计算系统上运行</li><li>解释运行:运行速度较慢,高版本的Java速度较快</li><li>多线程:在一个程序里,可同时执行多个小程序</li></ul><h3 id="3-Java有关术语"><a href="#3-Java有关术语" class="headerlink" title="3.Java有关术语"></a>3.Java有关术语</h3><h4 id="Java三大版本"><a href="#Java三大版本" class="headerlink" title="Java三大版本"></a>Java三大版本</h4><ul><li>JavaSE:标准版(桌面程序,控制台开发…)</li><li>JavaME:嵌入式开发(手机,小家电…)</li><li>JavaEE:E企业级开发(web端,服务器开发)</li></ul><h4 id="Java术语"><a href="#Java术语" class="headerlink" title="Java术语"></a>Java术语</h4><ul><li>JDK #Java语言开发包,由Java创造者Sun公司发布</li><li>SDK #Java语言软件开发包,从v1.2起jdk就称作SDK. 不严格区分时,常把JDK和SDK都叫做JDK</li><li>JRE #Java运行环境</li><li>JVM #Java虚拟机 Java的字节码运行再Java虚拟机上</li></ul><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs gcode">Java源程序<span class="hljs-comment">(.java)</span>  <br>    ⬇编译    <br>字节码程序<span class="hljs-comment">(.class)</span>  <br>    ⬇解释运行     <br>  解释器<br></code></pre></td></tr></table></figure><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs actionscript"><span class="hljs-number">1.</span>Java源文件中最多只能有一个类是<span class="hljs-keyword">public</span>类,源文件名字必须与<span class="hljs-keyword">public</span>完全相同,扩展名是.java(可以没用<span class="hljs-keyword">public</span>类)<br><span class="hljs-number">2.</span>一个Java应用程序必须有有一个主类,Java程序从主类开始运行<br><span class="hljs-number">3.</span>JDK提供的编译器是javac.exe<br><span class="hljs-number">4.</span>java.exe是Java解释器<br></code></pre></td></tr></table></figure><hr><h2 id="二-基本数据类型-运算符-表达式-数组-字符串"><a href="#二-基本数据类型-运算符-表达式-数组-字符串" class="headerlink" title="二.基本数据类型 运算符 表达式 数组 字符串"></a>二.基本数据类型 运算符 表达式 数组 字符串</h2><h3 id="1-基本数据类型"><a href="#1-基本数据类型" class="headerlink" title="1.基本数据类型"></a>1.基本数据类型</h3><p>1.数据类型:  </p><ul><li>简单类型:<ul><li>整型(字节型byte,短整型short,基本型int,长整型long)</li><li>实型(单精度float,双精度double)</li><li>字符型char </li><li>布尔型boolean true&#x2F;false</li></ul></li><li>引用类型:数组,类(包括对象),接口</li></ul><p>2.标识符</p><ul><li>标识符组成:字母(A-Z,a-z,汉字),下划线(_),美元符($)和数字    </li><li>标识符的第一个字符不能是数字    </li><li>标识符不能够是关键字   </li><li>标识符不能是true,false和null(尽管他们不是Java关键字)</li></ul><p>3.整型常量</p><ul><li>八进制数第一位是0</li><li>十六进制数前两位是0x</li></ul><p>4.字符型常量</p><ul><li><p>Java采用Unicode字符集来定义字符类型</p></li><li><p>用单括号括起来的一个字符,如’A’,’a’</p></li><li><p>转义字符:\r(回车),\n(换行),\(反斜杠字符)</p></li><li><p>ASCII码:主要限于英语,65对应大写字母’A’</p></li></ul><p>5.布尔类型</p><ul><li>布尔型数据只有两个值true和false,并且他们不对应于任何整数值</li><li>boolean isFound&#x3D;true;</li></ul><p>6.自动类型转换</p><ul><li>自动类型转换:Java允许从小定义域类型的值自动转换到大定义域类型的变量</li><li>强制转换类型:大定义域类型的值转换到小定义域类型的值使用强制类型转换,可能会导致溢或精度下降</li></ul><h3 id="2-运算符"><a href="#2-运算符" class="headerlink" title="2.运算符"></a>2.运算符</h3><ul><li>双目运算符:+,-,*,&#x2F;,%</li><li>单目运算符:++,–</li><li>关系运算符:&gt;,&lt;,&gt;&#x3D;,&lt;&#x3D;,&#x3D;&#x3D;,!&#x3D;</li><li>逻辑运算符:&amp;&amp;(与),||(或),!(非),^(异或)</li><li>赋值运算符:+&#x3D;,-&#x3D;,*&#x3D;,&#x2F;&#x3D;</li><li>条件运算符:?</li></ul><h3 id="3-表达式"><a href="#3-表达式" class="headerlink" title="3.表达式"></a>3.表达式</h3><ul><li>按照运算符的优先顺序从高向低进行</li><li>算术运算符有左结合性,赋值运算符有右结合性</li></ul><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs aspectj"><span class="hljs-keyword">char</span>类型是用单引号<span class="hljs-string">&#x27;&#x27;</span><br><span class="hljs-keyword">float</span>类型的常量后面必须要有后缀f或F<br><br></code></pre></td></tr></table></figure><h3 id="4-数组"><a href="#4-数组" class="headerlink" title="4.数组"></a>4.数组</h3><ul><li><p>声明数组: int[] anArray;  或 int anArray[];  声明时不会分配内存</p></li><li><p>创建一个数组:anArray&#x3D;new int[10];</p></li><li><p>anArray.length可以得到数组长度</p></li><li><p>对象数组声明,创建空间后,还要进行初始化才能使用</p><figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs abnf">String strArray<span class="hljs-comment">;</span><br><span class="hljs-attribute">strArray</span><span class="hljs-operator">=</span>new String[<span class="hljs-number">10</span>]<span class="hljs-comment">; #不能直接使用</span><br></code></pre></td></tr></table></figure></li></ul><h3 id="5-字符串"><a href="#5-字符串" class="headerlink" title="5.字符串"></a>5.字符串</h3><ul><li>声明格式: String 字符串名;</li><li>创建格式: 字符串名 &#x3D; new String(字符串常量);</li><li>声明和创建可以一步完成: String s &#x3D; new String&#x3D;(“student”) 或 String s &#x3D; “student”</li><li>String类的方法,对象名.方法名() 的方式调用<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs scss">s<span class="hljs-selector-class">.length</span>() 返回本字符串的长度(字符数)<br>s<span class="hljs-selector-class">.charAt</span>(int intdex) 返回本字符串中第index个字符(从<span class="hljs-number">0</span>算起)<br>aStr<span class="hljs-selector-class">.equals</span>(bStr) 字符串的比较<br>s<span class="hljs-selector-class">.indexOf</span>() 字符串查找<br></code></pre></td></tr></table></figure></li><li>StringBuffer类</li><li>Character类</li></ul><hr><h2 id="三-控制语句"><a href="#三-控制语句" class="headerlink" title="三.控制语句"></a>三.控制语句</h2><ul><li>条件语句   <ul><li>if语句:else与最近的if相结合</li><li>switch语句:用于判断”等于”,”为”即是确定的整数取值</li></ul></li><li>循环语句  <ul><li>while语句:最好用于次数不确定的循环</li><li>do-while语句:至少要执行一遍循环体的代码块</li><li>for语句:用于知道起始,终止,步长的循环</li><li>嵌套语句</li></ul></li><li>跳转语句<ul><li>break语句:循环语句结束,或从switch的分支中跳转出来</li><li>continue语句:不执行continue后面的语句,立即转入下次循环</li><li>return语句</li></ul></li></ul><hr><h2 id="四-类与对象"><a href="#四-类与对象" class="headerlink" title="四.类与对象"></a>四.类与对象</h2><ul><li><p>类声明:  <code>[访问修饰符public][类修饰符abstract,final]class 类名 [extends 父类名][implements 接口表]&#123;&#125;</code></p></li><li><p>成员变量: </p></li><li><p>方法重载: 返回相同的类型,但是参数必须有所不同(参数类型不同 或 顺序不同 或 个数不同)</p></li><li><p>一个方法必须声明返回类型,如果无返回值,则声明返回类型为viod</p></li><li><p>this变量表示的是当前类的当前对象本身</p></li><li><p>super表示的是当前对象的直接父类对象的引用</p></li><li><p>构造方法(构造函数)</p></li><li><p>非访问控制符: static final abstract</p></li><li><p>访问控制符: public protect private 默认修饰符</p></li></ul><h2 id="五-继承与接口"><a href="#五-继承与接口" class="headerlink" title="五.继承与接口"></a>五.继承与接口</h2><ul><li>子类: class 子类名 extends 分类名{}</li><li>方法重写:</li></ul><p>class J_SubClass extends J_Test{}<br>public class J_Test{<br>  J_Test(int i){<br>    System.out.println(i);<br>  }<br>  public static void main(String[] args){<br>    J_SubClass a &#x3D; new J_SubClass();<br>  }<br>}</p><h2 id="九-Java-SWing图形用户界面"><a href="#九-Java-SWing图形用户界面" class="headerlink" title="九.Java SWing图形用户界面"></a>九.Java SWing图形用户界面</h2><ul><li>组件：Component类的子类或间接子类创建的对象</li><li>容器：Container的子类或间接子类创建的对象</li><li>窗口(窗体)：JFrame创建的容器</li></ul><hr><ul><li>菜单条：JMenubar类</li><li>菜单项：JMenuItem类</li><li>菜单：JMenu类</li></ul><h3 id="常用组件-都是Component的子类"><a href="#常用组件-都是Component的子类" class="headerlink" title="常用组件(都是Component的子类)"></a>常用组件(都是Component的子类)</h3><ul><li>文本框：JTextFiled类</li><li>文本区：JTextArea类</li><li>按钮：JButton类</li><li>标签：JLabel类</li><li>选择框：JCheckBox类</li><li>单选按钮：JRadioButton类</li><li>下拉列表：JComboBox类</li><li>密码框：JPasswordField类</li></ul><h3 id="常用布局"><a href="#常用布局" class="headerlink" title="常用布局"></a>常用布局</h3><p>FlowLayout布局<br>BorderLayout布局<br>GridLayout布局</p>]]></content>
     
