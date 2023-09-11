@@ -16,15 +16,15 @@
   <meta name="author" content="xi">
   <meta name="keywords" content="">
   
-    <meta name="description" content="线性规划问题的一般形式 决策变量、目标函数、约束条件  线性规划问题的标准形式 特点：目标函数求最大、等式约束、变量非负 正常形式、求和形式、矩阵形式 如何将一般问题化为标准型：  图解法 只适用于有2个决策变量或能够转化为2个决策变量的线性规划问题 定义1：满足约束条件的变量的值，称为（LP）可行解。所有可行解的集合称为可行解集（可行域） 定义2：使目标函数取得最优值的可行解，称为最优解。">
+    <meta name="description" content="线性规划问题的一般形式 决策变量、目标函数、约束条件  线性规划问题的标准形式 特点：目标函数求最大、约束条件等式、决策变量非负、资源限量非负 标准形式有三种形式：正常形式、求和形式、矩阵形式 化标准型：按照特点来化标准型   图解法 只适用于有2个决策变量或能够转化为2个决策变量的线性规划问题 线性规划的解有四种情况：唯一最优解、多重解、无界解、无可行解(无可行域)  解的概念 可行解：满足约束">
 <meta property="og:type" content="article">
 <meta property="og:title" content="运筹学（一）">
 <meta property="og:url" content="http://example.com/2023/09/07/%E8%BF%90%E7%AD%B9%E5%AD%A6%EF%BC%88%E4%B8%80%EF%BC%89/index.html">
 <meta property="og:site_name" content="溪_">
-<meta property="og:description" content="线性规划问题的一般形式 决策变量、目标函数、约束条件  线性规划问题的标准形式 特点：目标函数求最大、等式约束、变量非负 正常形式、求和形式、矩阵形式 如何将一般问题化为标准型：  图解法 只适用于有2个决策变量或能够转化为2个决策变量的线性规划问题 定义1：满足约束条件的变量的值，称为（LP）可行解。所有可行解的集合称为可行解集（可行域） 定义2：使目标函数取得最优值的可行解，称为最优解。">
+<meta property="og:description" content="线性规划问题的一般形式 决策变量、目标函数、约束条件  线性规划问题的标准形式 特点：目标函数求最大、约束条件等式、决策变量非负、资源限量非负 标准形式有三种形式：正常形式、求和形式、矩阵形式 化标准型：按照特点来化标准型   图解法 只适用于有2个决策变量或能够转化为2个决策变量的线性规划问题 线性规划的解有四种情况：唯一最优解、多重解、无界解、无可行解(无可行域)  解的概念 可行解：满足约束">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-09-07T07:22:16.000Z">
-<meta property="article:modified_time" content="2023-09-08T08:41:06.851Z">
+<meta property="article:modified_time" content="2023-09-10T14:33:50.337Z">
 <meta property="article:author" content="xi">
 <meta property="article:tag" content="运筹学">
 <meta name="twitter:card" content="summary_large_image">
@@ -210,7 +210,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          186 words
+          511 words
         
       </span>
     
@@ -221,7 +221,7 @@
         
         
         
-          2 mins
+          3 mins
         
       </span>
     
@@ -284,7 +284,7 @@
               <p class="note note-info">
                 
                   
-                    Last updated on September 8, 2023 pm
+                    Last updated on September 10, 2023 pm
                   
                 
               </p>
@@ -296,15 +296,43 @@
 <li>决策变量、目标函数、约束条件</li>
 </ul>
 <h2 id="线性规划问题的标准形式"><a href="#线性规划问题的标准形式" class="headerlink" title="线性规划问题的标准形式"></a>线性规划问题的标准形式</h2><ul>
-<li>特点：目标函数求最大、等式约束、变量非负</li>
-<li>正常形式、求和形式、矩阵形式</li>
-<li>如何将一般问题化为标准型：</li>
+<li>特点：目标函数求最大、约束条件等式、决策变量非负、资源限量非负</li>
+<li>标准形式有三种形式：正常形式、求和形式、矩阵形式</li>
+<li>化标准型：按照特点来化标准型</li>
+<li></li>
 </ul>
 <h2 id="图解法"><a href="#图解法" class="headerlink" title="图解法"></a>图解法</h2><ul>
 <li>只适用于有2个决策变量或能够转化为2个决策变量的线性规划问题</li>
-<li>定义1：满足约束条件的变量的值，称为（LP）可行解。所有可行解的集合称为可行解集（可行域）</li>
-<li>定义2：使目标函数取得最优值的可行解，称为最优解。</li>
-<li></li>
+<li>线性规划的解有四种情况：唯一最优解、多重解、无界解、无可行解(无可行域)</li>
+</ul>
+<h2 id="解的概念"><a href="#解的概念" class="headerlink" title="解的概念"></a>解的概念</h2><ul>
+<li><p>可行解：满足约束条件的变量的值，称为（LP）可行解。所有可行解的集合称为可行解集（可行域）</p>
+</li>
+<li><p>最优解：使目标函数取得最优值的可行解，称为最优解。</p>
+</li>
+<li><p>矩阵A：m×n矩阵，m≤n，且r(A)&#x3D;m</p>
+</li>
+<li><p>基矩阵：A的m×n阶子矩阵B满足r(B)&#x3D;m,则B为线性规划的一个基(或基矩阵)</p>
+</li>
+<li><p>基向量：基矩阵对应的列向量</p>
+</li>
+<li><p>非基向量：其余列向量为非基向量</p>
+</li>
+<li><p>基变量：基向量对应的变量为基变量</p>
+</li>
+<li><p>非基变量：非基向量对应的变量为非基变量</p>
+</li>
+<li><p>基解：对某一确定的基B，在约束条件AX&#x3D;b中，令非基变量等于0，求解出基变量，称这组解为线性规划问题的基本解</p>
+</li>
+<li><p>基可行解：若基本解满足X≥0的非负约束，称为基本可行解</p>
+</li>
+<li><p>可行基：</p>
+</li>
+</ul>
+<h2 id="单纯形法"><a href="#单纯形法" class="headerlink" title="单纯形法"></a>单纯形法</h2><ul>
+<li>步骤一：构建初始单纯形表</li>
+<li>步骤二：求检验数并判断</li>
+<li>步骤三：基变换，进行迭代</li>
 </ul>
 
                 
